@@ -1,0 +1,26 @@
+name: seguridad_20185685
+description: Aplicación móvil destinada a policías secretos para registrar y gestionar incidencias de manera segura y organizada.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.3
+  image_picker: ^0.8.9
+  audioplayers: ^5.2.1
+  record: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/officer.jpg
